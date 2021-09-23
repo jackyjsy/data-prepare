@@ -12,7 +12,7 @@ Use pretrained model of whole-body pose estimation to extract 133 landmarks from
 
 ## Generate skeleton features
 
-Use the [../TPose/data_process/wholepose_features_extraction.py](../TPose/data_process/wholepose_features_extraction.py) to extract skeleton features.
+Use the [feature/wholepose_features_extraction.py](feature/wholepose_features_extraction.py) to extract skeleton features.
 
 ## Generate rgb frames from rgb videos
 Get frames from RGB videos and crop to 256x256 according to the whole-pose skeletons extracted above.
