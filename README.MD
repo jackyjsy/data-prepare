@@ -1,4 +1,15 @@
 # Multi-modal Data Preparation and Processing
+This repo contains the multi-modal data preparation code for [Skeleton Aware Multi-modal Sign Language Recognition (SAM-SLR)](https://github.com/jackyjsy/CVPR21Chal-SLR). 
+
+List of all six modalities:
+- Full-body pose keypoints
+- Full-body pose features
+- RGB frames
+- RGB optical flow
+- HHA (depth)
+- Depth flow
+
+
 ## Generate whole-body skeleton keypoints and save as npy
 Use pretrained model of whole-body pose estimation to extract 133 landmarks from rgb videos and save as npy files. 
 
